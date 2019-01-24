@@ -1,6 +1,6 @@
 # Description
 
-A Makefile which uses a Docker container to generate graphviz graphs.
+Makefile which uses a Docker container to generate graphviz graphs
 
 # Usage
 
@@ -23,6 +23,6 @@ By calling `make graph` you would generate graphs for all `*.dot` files residing
 	
 # References
 
-- (https://www.docker.com/)
-- (https://graphviz.org/)
-- (https://en.wikipedia.org/wiki/DOT_(graph_description_language)
+- https://www.docker.com/
+- https://graphviz.org/
+- https://en.wikipedia.org/wiki/DOT_(graph_description_language)
