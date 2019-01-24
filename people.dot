@@ -1,0 +1,24 @@
+digraph {
+  rankdir=LR;
+  Alexander -> Gerhard -> Nils;
+  Nils -> Gerhard;
+  Carolla -> Gerhard;
+  Gerhard -> Anne;
+  Anne -> Alexander;
+  Josef -> Rita;
+  Josef -> Bernd;
+  Bernd -> Nils;
+  Nils -> Anne;
+  Gerhard -> Nils;
+  Rita -> Sophia;
+  Sophia -> Anne;
+  Ursula -> Anke;
+  Ursula -> Bernd;
+  Bernd -> Anke;
+  Christina -> Gerold;
+  Rita -> Anne;
+  Neil -> Nils;
+  Neil -> Carolla;
+  Neil -> Alexander;
+  Anne -> Sophia;
+}
