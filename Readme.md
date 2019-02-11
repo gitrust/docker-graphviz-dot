@@ -20,6 +20,7 @@ By calling `make graph` you would generate graphs for all `*.dot` files residing
 	make graph
 	make graph FORMAT=pdf
 	make graph FORMAT=png
+	make people.png
 	
 # References
 
