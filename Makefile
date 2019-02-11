@@ -19,7 +19,8 @@ graph: $(patsubst %.dot,%.$(FORMAT),$(ALL_DOT_FILES))
 
 # default conversion command
 # convert .dot to .png
-%.$(FORMAT): *.dot
+%.$(FORMAT): %.dot
+	@echo convert $<
 	cat $< | docker container run --rm -i $(DOCKERIMAGE) dot -T$(FORMAT) > $(patsubst %.dot,%.$(FORMAT),$<)
 	
 # build docker image	
